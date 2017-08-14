@@ -148,7 +148,6 @@ class C_Admin extends CI_Controller
         } 
         else 
             echo $this->upload->display_errors();
-        echo "sadasd";
     }
 
     public function lihatProduksiKrebet(){

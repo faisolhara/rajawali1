@@ -12,7 +12,6 @@ class C_Main extends CI_Controller
   }
 
   public function index(){
-    exit();
     $data['event'] = $this->E_Event->getAll();
     $data['berita'] = $this->E_Berita->getAll();
     $this->load->view('umum/home', $data);
